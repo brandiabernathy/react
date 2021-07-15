@@ -1,10 +1,6 @@
 .header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
     padding: 20px;
     border-bottom: 1px solid #ddd;
-    /* height: 70px; */
 }
 
 .header .logo {
@@ -12,8 +8,10 @@
 }
 
 .header nav {
-    /* justify-content: flex-end; */
-    /* float: right; */
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 .header nav a {
