@@ -1,0 +1,22 @@
+
+.fourth {
+    width: 25%;
+}
+
+.fourth + .fourth {
+    margin-left: 30px;
+}
+
+.fourth h3 {
+    margin-top: 8px;
+}
+
+.fourth .img-wrapper {
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+}
+
+.fourth .img-wrapper img {
+    transform: translateY(-40px);
+}

@@ -9,7 +9,9 @@ class Header extends React.Component {
 				<div className="wrapper">
 					<img className="logo" src={logo} />
 					<nav>
+						<a href="#">News</a>
 						<a href="#">Entertainment</a>
+						<a href="#">Tech</a>
 						<a href="#">Life</a>
 						<a href="#">Travel</a>
 					</nav>

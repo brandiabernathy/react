@@ -6,18 +6,18 @@ const articles = [
     },
     {
         id: 2,
-        title: 'Everything You Need To Know About Traveling When You’re Vaccinated',
-        image: './images/vaccinated.jpg',
-    },
-    {
-        id: 3,
         title: '11 Spice Girls Quotes That Prove Girl Power Is A State Of Mind',
         image: './images/spicegirls.jpg',
     },
     {
+        id: 3,
+        title: 'Everything You Need To Know About Traveling When You’re Vaccinated',
+        image: './images/vaccinated.jpg',
+    },
+    {
         id: 4,
-        title: 'Everything To Know About The US Women’s Gymnastics Team',
-        iamge: './images/gymnastics.jpg',
+        title: '8 Bennifer Outfits That Stand The Test Of Time',
+        image: './images/bennifer.jpg',
     }
 ]
 

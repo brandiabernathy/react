@@ -2,20 +2,19 @@
     position: relative;
 }
 
-.hero img {
-    max-width: 70%;
+.hero .img-wrapper {
+    height: calc(100vh - 70px);
+    overflow: hidden;
 }
 
 .hero .text {
     position: absolute;
     max-width: 60%;
     right: 0;
-    top: 60%;
-    transform: translateY(-50%);
+    bottom: 0;
     background-color: #fff;
     padding: 20px;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
-
+    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px; */
 }
 
 .hero h2 {
